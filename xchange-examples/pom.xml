@@ -164,12 +164,12 @@
 			<artifactId>xchange-cexio</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-        <!-- Xchange Cobinhood exchange support -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>xchange-cobinhood</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+		<!-- Xchange Cobinhood exchange support -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>xchange-cobinhood</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<!-- Xchange Coingi exchange support -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -236,7 +236,7 @@
 			<groupId>${project.groupId}</groupId>
 			<artifactId>xchange-okex</artifactId>
 			<version>${project.version}</version>
-		</dependency>		
+		</dependency>
 		<!-- XChange Bleutrade exchange support -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -372,21 +372,21 @@
 			<artifactId>xchange-coindirect</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-  	<dependency>
+		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>xchange-dvchain</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-  		<dependency>
+		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>xchange-bankera</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-        <dependency>
-            <groupId>org.knowm.xchange</groupId>
-            <artifactId>xchange-enigma</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+		<dependency>
+			<groupId>org.knowm.xchange</groupId>
+			<artifactId>xchange-enigma</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.knowm.xchange</groupId>
 			<artifactId>xchange-lgo</artifactId>
@@ -395,6 +395,12 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>xchange-deribit</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>xchange-bib</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

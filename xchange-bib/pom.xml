@@ -11,5 +11,23 @@
 
     <artifactId>xchange-bib</artifactId>
 
+    <name>XChange Bib</name>
+    <description>XChange implementation for the Bib Exchange</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.knowm.xchange</groupId>
+            <artifactId>xchange-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-jre8</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
