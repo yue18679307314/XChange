@@ -14,8 +14,8 @@ public class BibAccountDataDemo {
     public static void main(String[] args) throws IOException {
         ExchangeSpecification exSpec =
                 new BibExchange().getDefaultExchangeSpecification();
-        exSpec.setApiKey("c2e5df3412ff6ef5c52e2081d60e3933");
-        exSpec.setSecretKey("8eeda627f771dce227a917240d4f017a");
+        exSpec.setApiKey("");
+        exSpec.setSecretKey("");
         Exchange bibExchange = ExchangeFactory.INSTANCE.createExchange(exSpec);
         BibAccountService bibAccountService =
                 (BibAccountService) bibExchange.getAccountService();
